@@ -1,27 +1,23 @@
 # DLAV-3DLOC
 Project on 3D vehicle localization for the course Deep Learning for Autonomous Vehicles, made as part of the ["Deep Learning for Autonomous Vehicle"](https://edu.epfl.ch/coursebook/en/deep-learning-for-autonomous-vehicles-CIVIL-459) course from Pr. Alahi.  
 
-<a href="https://www.tri.global/" target="_blank">
- <img align="right" src="/media/figs/tri-logo.png" width="20%"/>
-</a>
-
 - [Introduction](#introduction)
 - [Contribution Overview](#contribution-overview)
 - [Dataset details](#dataset-details)
 - [Experimental Setup](#dataset-stats)
 - [How to use](#how-to-use)
 - [Results](#evaluation-metrics)
-- [Conclusion](#ipython-notebook)
+- [Conclusion](#conclusion)
+- [Links](#links)
 - [References](#references)
 
 
-![](media/scene1.gif)
 
 ## Introduction
 
 In this project, we aim to train a model to perform 3D car detection from RGB images. The ultimate goal is to integrate this module into other components in order to build an autonomous road planning algorithm.
 
-xxx: gif de notre algo qui fonctionne. 
+![](media/scene1.gif)
 
 ## Contribution Overview
 From the paper "Investigating Localization Errors in Monocular 3D Object Detection," following diagnostic experiments, the research team inferred that the most significant potential for performance enhancement lies within the realms of 3d localization and depth estimation.
@@ -151,6 +147,9 @@ You can retrieve the different checkpoints for each experiment on the following 
 
 In conclusion, we improved the performance of our baseline model, particularly on BBOX and AOS scores, while preserving our performance on 3D prediction.  This was achieved by adding an IOU loss function including distance, and using a backbone pre-trained on lidar and RGB pairs. 
 We believe that the results obtained can be improved with longer training runs, which is perhaps how we'll see the effect of the IOU. 
+
+## Links
+Here is a short [video](https://www.youtube.com/watch?v=XnuLRUvovRE) presenting our work. 
 
 ## References
 
