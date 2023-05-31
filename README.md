@@ -22,8 +22,9 @@ In this project, we aim to train a model to perform 3D car detection from RGB im
 ## Contribution Overview
 From the paper "Investigating Localization Errors in Monocular 3D Object Detection," following diagnostic experiments, the research team inferred that the most significant potential for performance enhancement lies within the realms of 3d localization and depth estimation.
 
-![](media/gain_from_gt.JPG)
-
+<p align="center">
+  <img src="media/gain_from_gt2.jpg">
+</p>
 
 We aimed to pursue this direction further, exploring multiple possibilities:
 
