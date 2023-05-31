@@ -133,6 +133,8 @@ First, from our runs, we've plotted the different IOU losses and analysed them.
 - Adding the aspect ratio, gives the model more variance, making the learning more difficult.
 - In general, losses seems to still be able to reduce more. 
 
+
+
 We then analysed the different models and loss functions, combined in different configurations. To measure performance, we used the kitti metrics described above. 
 ![](media/resultstotal.JPG)
 
