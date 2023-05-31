@@ -15,7 +15,7 @@ Project on 3D vehicle localization for the course Deep Learning for Autonomous V
 - [References](#references)
 
 
-![](media/scene1.0.gif)
+![](media/scene1.gif)
 
 ## Introduction
 
