@@ -121,7 +121,14 @@ Please download [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_object
         |testing/
           |calib/
           |image_2/
+    |DLAV/
+      |ImageSets/ [already provided in this repo]
+      |object/		
+           |testing/
+                |scene1/
 ```
+
+We added a possibility to run inference on the first scene provided by the DLAV course under the following [Google Drive](https://drive.google.com/drive/folders/1-WVPavDi5hOowTBXhGHpmOFbjKFdBVhi?usp=sharing)
 
 
 
@@ -141,7 +148,6 @@ We then analysed the different models and loss functions, combined in different 
 - The DIOU loss function, added to the baseline model, beat the other models with respect to BEV and 2D bounding box prediction scores.
 - The pretrained backbone, loaded in the baseline model, beat the others models at 3D box prediction score, which is the most important score, and is the one noted in the original paper. This is the proof that improving depth estimation is the most efficient way of enhancing 3D AP. On the other hand, all the other metrics are lowered. 
 - A good compromise is to use the model with pretrained backbone, and the DIOU loss. This model still achieves close results in 3D AP as the baseline, and beat the baseline on 2D bounding box and Orientation APs. 
-- If we would be ranked on the [Monocular 3D Object Detection on KITTI Cars Moderate](https://paperswithcode.com/sota/monocular-3d-object-detection-on-kitti-cars), we would be 4th. 
 
 ### Checkpoints 
 You can retrieve the different checkpoints for each experiment on the following [Google Drive](https://drive.google.com/drive/folders/1sO54olD8GK0d1BrigqETHf8zpZpr84WS?usp=sharing)
