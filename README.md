@@ -19,6 +19,8 @@ In this project, we aim to train a model to perform 3D car detection from RGB im
 
 ![](media/scene1.gif)
 
+(Note : This was made without the calibration file of the camera, if you want to vizualize better performances, please run the testing/inference on KITTI dataset instead)
+
 ## Contribution Overview
 From the paper "Investigating Localization Errors in Monocular 3D Object Detection," following diagnostic experiments, the research team inferred that the most significant potential for performance enhancement lies within the realms of 3d localization and depth estimation.
 
